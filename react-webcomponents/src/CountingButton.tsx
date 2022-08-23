@@ -1,6 +1,6 @@
 import {useState} from "react"
 
-const Button = () => {
+export const Button = () => {
     const [count, setCount] = useState(0)
     return (
         <button onClick={() => setCount((count) => count + 1)}>
